@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MP3Player.controller.ContentPaneController">
+   <children>
+       <TableView id="field_l" fx:id="contentTable" nodeOrientation="LEFT_TO_RIGHT" style="-fx-background-color: #3E3937; -fx-border-color: #F68906;" HBox.hgrow="ALWAYS">
+           <columnResizePolicy>
+               <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+           </columnResizePolicy>
+       </TableView>
+       <TableView id="field_r" fx:id="dbTable" nodeOrientation="LEFT_TO_RIGHT" style="-fx-background-color: #3E3937; -fx-border-color: #F68906;" HBox.hgrow="ALWAYS">
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</HBox>

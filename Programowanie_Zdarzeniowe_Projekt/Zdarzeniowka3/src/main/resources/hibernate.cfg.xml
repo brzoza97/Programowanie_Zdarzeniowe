@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<hibernate-configuration>
+    <session-factory >
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://remotemysql.com:3306/AU57qfAyJ0</property>
+        <property name="hibernate.connection.username">AU57qfAyJ0</property>
+        <property name="hibernate.connection.password">GaB889XfZS</property>
+
+        <mapping class="MP3Player.dbConnection.Song"/>
+
+    </session-factory>
+</hibernate-configuration>

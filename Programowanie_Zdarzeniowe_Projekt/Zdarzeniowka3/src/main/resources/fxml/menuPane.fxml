@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="menu" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MP3Player.controller.MenuPaneController">
+    <MenuBar id="menu" cache="true" depthTest="DISABLE" nodeOrientation="LEFT_TO_RIGHT" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <Menu mnemonicParsing="false" text="File">
+            <MenuItem fx:id="fileMenuItem" mnemonicParsing="false" text="Open Mp3 File" />
+            <MenuItem fx:id="dirMenuItem" mnemonicParsing="false" text="Open directory" />
+         <MenuItem fx:id="dbMenuItem" mnemonicParsing="false" text="Open Mp3 from database" />
+            <MenuItem fx:id="insertIntoDb" mnemonicParsing="false" text="Insert mp3 to database" />
+            <MenuItem fx:id="closeMenuItem" mnemonicParsing="false" text="Close" />
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+            <MenuItem fx:id="aboutMenuItem" mnemonicParsing="false" text="About" />
+        </Menu>
+      <effect>
+         <InnerShadow />
+      </effect>
+    </MenuBar>
+</AnchorPane>
